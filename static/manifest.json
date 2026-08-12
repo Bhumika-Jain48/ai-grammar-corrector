@@ -1,0 +1,15 @@
+{
+  "name": "AI Grammar Corrector",
+  "short_name": "GrammarAI",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F7F2EA",
+  "theme_color": "#A64B4B",
+  "icons": [
+    {
+      "src": "/static/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

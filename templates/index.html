@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>AI Grammar Corrector</title>
+
+    <link
+        rel="stylesheet"
+        href="/static/style.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="manifest" href="/static/manifest.json">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Decorative Images -->
+
+        <img src="static\images\Screenshot 2026-08-12 184710.png"
+     class="flower-top">
+
+         <img src="static\images\Screenshot 2026-08-12 184710.png"
+     class="flower-bottom">
+        <!-- Header -->
+
+        <div class="header">      
+
+            <h1>
+                AI Grammar
+                <br>
+                Corrector
+            </h1>
+
+            <div class="ornament">
+    ---------🌸---------
+</div>
+    <div class="badge">
+    </div>
+            <p>
+                Improve grammar, spelling and writing clarity
+                with intelligent AI-powered corrections.
+            </p>
+
+            <div class="quote">
+    "Good writing is clear thinking made visible."
+</div>
+
+        </div>
+
+        <!-- Text Input -->
+
+        <textarea
+            id="text"
+            placeholder="Write or paste your text here..."></textarea>
+
+        <!-- Buttons -->
+
+        <div class="buttons">
+
+            <button
+                class="primary-btn"
+                onclick="correctText()">
+
+                ✨ Correct Grammar
+
+            </button>
+
+            <button
+                class="secondary-btn"
+                onclick="copyResult()">
+
+                📋 Copy Result
+
+            </button>
+
+        </div>
+
+        <!-- Loading -->
+
+        <div id="loading"></div>
+
+        <!-- Results -->
+
+        <div class="results">
+
+            <!-- Corrected Text -->
+
+            <div class="card">
+
+                <h2>
+                    ✅ Corrected Text
+                </h2>
+
+                <div id="result">
+
+                    Your corrected sentence will appear here.
+
+                </div>
+
+            </div>
+
+            <!-- Explanation -->
+
+            <div class="card">
+
+                <h2>
+                    💡 Explanation
+                </h2>
+
+                <div id="explanation">
+
+                    Explanation of grammar corrections will appear here.
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Footer -->
+
+        <div class="footer">
+
+            Powered by Gemini AI ❤
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"></script>
+
+</body>
+
+</html>
