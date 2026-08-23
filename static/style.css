@@ -402,31 +402,42 @@ textarea:focus{
 
 /* Mobile */
 
-@media(max-width:900px){
+@media (max-width: 768px) {
 
-    .header{
-    position:relative;
-}
-    .header h1{
-
-        font-size:50px;
+    .container {
+        width: 100%;
+        padding: 30px 20px;
     }
-    .header::before{
 
-    content:"✿";
+    .header h1 {
+        font-size: 48px;
+    }
 
-    position:absolute;
+    textarea {
+        width: 100%;
+        font-size: 16px;
+    }
 
-    top:-20px;
-    left:-20px;
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
 
-    font-size:80px;
+    .primary-btn,
+    .secondary-btn {
+        font-size: 14px;
+        padding: 12px 16px;
+    }
 
-    color:#d8c2aa;
+    .flower-top {
+        width: 140px;
+    }
 
-    opacity:.5;
+    .flower-bottom {
+        width: 110px;
+    }
 }
-
     .results{
 
         grid-template-columns:1fr;
